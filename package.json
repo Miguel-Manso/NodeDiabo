@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "aula-pw-1705",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "msql": "^1.0.3",
+    "mssql": "^9.0.0"
+  }
+}
