@@ -14,5 +14,6 @@ routes.get("/", (req, res) => {
 
 routes.get("/cliente", ClientController.listarTodos);
 routes.post("/cliente/novo", ClientController.novoCliente);
+routes.put("/cliente/alterar/:id", ClientController.alterarCliente);
 
 export { routes }
